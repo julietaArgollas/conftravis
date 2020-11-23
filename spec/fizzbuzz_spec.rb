@@ -2,7 +2,6 @@ require 'fizzbuzz.rb'
 
 RSpec.describe FizzBuzz do
         
-    end
     it "devuelve el mismo numero" do
         fizzbuzz=FizzBuzz.new()
         expect(fizzbuzz.generate(1)).to eq '1'
